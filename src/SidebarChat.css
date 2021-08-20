@@ -1,0 +1,36 @@
+.sidebarChat {
+  display: flex;
+  padding: 20px;
+  cursor: pointer;
+  /* border-bottom: 1px solid #f6f6f6; */
+  border-bottom: 1px solid var(--border);
+}    
+
+
+.sidebarChat > h2{
+    font-size: 19px;
+  } 
+
+a {
+    text-decoration: none !important;
+    color: var(--text);
+  }
+
+.sidebarChat:hover {
+  /* background-color: #ebebeb; */
+  background-color: rgb(63, 63, 63);
+  color: white;
+}
+
+.sidebarChat__info > h2 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}    
+
+.sidebarChat__info > p {
+    font-size: 13px;
+  } 
+
+.sidebarChat__info {
+  margin-left: 15px;
+}
